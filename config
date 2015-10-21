@@ -166,4 +166,5 @@ client.placeholder      #fff8e1 #fff8e1 #ffffff
 
 client.background       #ffffff
 
+exec --no-startup-id "xrandr --output VGA-0 --primary --auto --output VGA-1 --auto --right-of VGA-0"
 exec --no-startup-id  ~/.i3/load_layouts.sh
